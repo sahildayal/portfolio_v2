@@ -1,0 +1,112 @@
+{
+  "profile": {
+    "name": "Sahil Dayal",
+    "tagline": "Software Engineer @ RIT • ML, Backend, and Product-curious",
+    "location": "Rochester, NY",
+    "email": "sd8804@rit.com",
+    "phone": "+1 (585) 752-8599",
+    "links": {
+      "github": "https://github.com/sahildayal",
+      "linkedin": "https://www.linkedin.com/in/sahil-dayal-605387214/",
+      "twitter": "https://twitter.com/EndorsiVal",
+      "resume": "#"
+    },
+    "about": "I build useful, clean, slightly over-engineered things. I’m a fourth-year Software Engineering student at RIT (BS/MS track). I love ML projects, backend systems, and shipping fast. Off-screen: volleyball, anime nights, and way too much soccer (Messi & Neymar forever).",
+    "quote": "Opportunities present themselves to those who have prepared for it. — Haikyuu"
+  },
+  "work": [
+    {
+      "company": "Paychex",
+      "role": "Software Engineering Co-op",
+      "location": "Rochester, NY",
+      "start": "Jan 2024",
+      "end": "May 2024",
+      "bullets": [
+        "Improved system reliability and performance across services; tuned SQL queries and trimmed slow execution paths.",
+        "Contributed to OpenShift deployments and config as code; participated in Agile ceremonies and sprint delivery.",
+        "Wrote automation and documentation that reduced recurring support noise."
+      ],
+      "tech": ["C#", ".NET", "SQL", "OpenShift", "GitLab CI"]
+    },
+    {
+      "company": "Shaksy Engineering Services",
+      "role": "IT Analyst Intern",
+      "location": "Muscat, Oman",
+      "start": "Jun 2025",
+      "end": "Aug 2025",
+      "bullets": [
+        "Audited user access and device compliance; cleaned up stale accounts and tightened basic security posture.",
+        "Built lightweight SQL scripts + Excel dashboards to track IT tickets, asset status, and backups.",
+        "Helped network team with Wi-Fi heat-map checks, patching, and routine maintenance."
+      ],
+      "tech": ["SQL", "Excel", "PowerShell", "Wireshark", "Nmap"]
+    },
+    {
+      "company": "RIT — GCCIS",
+      "role": "Course Assistant (CA)",
+      "location": "Rochester, NY",
+      "start": "2022",
+      "end": "Present",
+      "bullets": [
+        "Graded, mentored, and ran problem-solving labs for Python/Java intro courses (5+ semesters).",
+        "Hosted review sessions, wrote mock exams, and debugged 100+ student projects."
+      ],
+      "tech": ["Python", "Java", "Linux"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Premier League ML Predictor",
+      "tags": ["ML", "Python", "Sports Analytics"],
+      "desc": "End-to-end match outcome predictor with feature engineering, model compare (LogReg, Tree/Forest), and betting backtests.",
+      "highlights": ["Random Forest produced best ROI on test betting strategy", "Cleaned & joined multiple season datasets", "Documented results in notebook + report"],
+      "links": { "code": "#", "report": "#" }
+    },
+    {
+      "name": "Personal Expense Tracker (React + Flask)",
+      "tags": ["React", "Flask", "PostgreSQL"],
+      "desc": "Full-stack app with CSV import/export, filters, currency conversion to USD, and slick UI. Budget goals and dark mode incoming.",
+      "highlights": ["CSV Save/Load on FE", "Search/Filter bar", "Modern themed UI"],
+      "links": { "code": "#" }
+    },
+    {
+      "name": "Movie Database",
+      "tags": ["PostgreSQL", "Python", "Data Viz"],
+      "desc": "SQL-backed movie DB to manage ratings/reviews with Python visualizations; dynamic filtering by attributes.",
+      "highlights": ["Normalized schema and indices", "Aggregation queries and plots"],
+      "links": { "code": "#" }
+    },
+    {
+      "name": "Online eStore",
+      "tags": ["Full-stack", "Auth", "Stripe"],
+      "desc": "Practice e-commerce build with auth, catalog, cart, and checkout flow.",
+      "highlights": ["Reusable components", "Basic admin dashboard"],
+      "links": { "code": "#" }
+    },
+    {
+      "name": "Magnus (Discord Collectibles)",
+      "tags": ["Discord API", "Flask", "MongoDB"],
+      "desc": "Discord app storing user stats and enabling a marketplace to boost community engagement.",
+      "highlights": ["Launched to 100+ communities", "Moderation tools & leaderboards"],
+      "links": { "code": "#" }
+    },
+    {
+      "name": "Linear Regression From Scratch",
+      "tags": ["Python", "NumPy"],
+      "desc": "Implemented gradient descent, metrics, and plots from scratch following a step-by-step learning project.",
+      "highlights": ["Clear walkthrough and tests"],
+      "links": { "code": "#" }
+    },
+    {
+      "name": "Environmental Data Logger",
+      "tags": ["Python", "SQLite", "Matplotlib"],
+      "desc": "CLI tool to log & visualize simulated environmental data; monthly trend dashboards.",
+      "highlights": ["Regulatory-style summaries"],
+      "links": { "code": "#" }
+    }
+  ],
+  "skills": [
+    "Python", "Java", "C#", "JavaScript/TypeScript", "React", "Flask", "PostgreSQL", "MongoDB",
+    "Git/GitHub", "Docker", "OpenShift", "Linux", "Pandas", "scikit-learn"
+  ]
+}

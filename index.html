@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sahil Dayal — Portfolio</title>
+  <meta name="description" content="Sahil Dayal — Software Engineering student at RIT. ML projects, backend, and clean product work.">
+  <meta property="og:title" content="Sahil Dayal — Portfolio">
+  <meta property="og:description" content="ML • Backend • Product-curious">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="preload" as="image" href="./assets/images/hero.jpg">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="inner container">
+      <div class="badge"><span class="dot"></span><span>Available for Spring ’26 internships</span></div>
+      <h1 id="name">Sahil Dayal</h1>
+      <div class="tagline" id="tagline">Loading...</div>
+      <div class="actions">
+        <a class="button" id="resume-link" href="#" style="display:none">Download Résumé</a>
+        <a class="button ghost" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section split" id="about-section">
+      <div>
+        <h2>About</h2>
+        <p id="about"></p>
+        <p class="muted small" id="quote"></p>
+        <div class="small social" style="margin-top:10px" id="socials"></div>
+      </div>
+      <div>
+        <img class="avatar" src="./assets/images/sahil2.jpg" alt="Sahil standing with thumbs up at a museum">
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Work</h2>
+      <div class="grid cols-2" id="work"></div>
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <div class="grid cols-3" id="projects"></div>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div id="skills"></div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Best way to reach me is email. I reply fast unless I’m mid-exam or mid-game.</p>
+        <p class="small">
+          <strong>Email:</strong> <a href="mailto:sahilaprana@gmail.com">sahilaprana@gmail.com</a> &nbsp; • &nbsp;
+          <strong>Phone:</strong> <a href="tel:+15857528599">+1 (585) 752-8599</a>
+        </p>
+        <p class="small">Pro tip: press <span class="kbd">/</span> to search on GitHub and stalk my commits.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="small">© <span id="year"></span> Sahil Dayal • Built with vanilla JS + JSON • Deployed on GitHub Pages</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="./app.js" defer></script>
+</body>
+</html>
