@@ -86,8 +86,10 @@
     {
       "name": "Magnus (Personal Assistant)",
       "tags": ["OpenAI API", "Flask", "MongoDB"],
-      "desc": "Personal assistant.",
-      "highlights": ["Launched to 100+ communities", "Moderation tools & leaderboards"],
+      "desc": "My personal AI assistant built using the OpenAI API",
+      "highlights": ["Custom prompt-engineering for personalized, context-aware responses",
+                    "Integrations with scheduling, reminders, and knowledge base features",
+                    "Built with Flask backend and MongoDB for persistent memory"],
       "links": { "code": "#" }
     },
     {
