@@ -84,9 +84,9 @@
       "links": { "code": "#" }
     },
     {
-      "name": "Magnus (Discord Collectibles)",
-      "tags": ["Discord API", "Flask", "MongoDB"],
-      "desc": "Discord app storing user stats and enabling a marketplace to boost community engagement.",
+      "name": "Magnus (Personal Assistant)",
+      "tags": ["OpenAI API", "Flask", "MongoDB"],
+      "desc": "Personal assistant.",
       "highlights": ["Launched to 100+ communities", "Moderation tools & leaderboards"],
       "links": { "code": "#" }
     },
