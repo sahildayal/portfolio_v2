@@ -108,7 +108,7 @@
     }
   ],
   "skills": [
-    "Python", "Java", "C#", "JavaScript/TypeScript", "React", "Flask", "PostgreSQL", "MongoDB",
+    "Python", "Java", "JavaScript/TypeScript", "React", "Flask", "PostgreSQL", "MongoDB",
     "Git/GitHub", "Docker", "OpenShift", "Linux", "Pandas", "scikit-learn"
   ]
 }
