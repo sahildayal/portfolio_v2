@@ -84,3 +84,41 @@ footer{padding:32px 0;color:var(--muted);border-top:1px solid rgba(255,255,255,0
 .small{font-size:14px}
 .social a{border-bottom:none}
 .kbd{border:1px solid rgba(255,255,255,0.2);padding:0 6px;border-radius:6px;font-size:12px}
+
+
+/* hero */
+header.hero{ min-height:60vh; }
+.hero .inner{ padding:32px 0; }
+h1{ font-size:clamp(36px,5vw,52px); margin:10px 0 6px; }
+.tagline{ font-size:16px; }
+
+/* sections & spacing */
+.section{ padding:48px 0; }              /* was 64px */
+.section h2{ margin:0 0 12px 0; }        /* tighter header spacing */
+.section + .section{
+  border-top:1px solid rgba(255,255,255,0.06);
+  margin-top:16px;                        /* subtle divider between sections */
+}
+
+/* grids & split layout */
+.grid{ gap:16px; }                        /* was 18px */
+.grid.cols-3{ grid-template-columns:repeat(3,minmax(0,1fr)); }
+@media (max-width:1100px){ .grid.cols-3{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:700px){ .grid.cols-2,.grid.cols-3{ grid-template-columns:1fr; } }
+
+.split{ gap:22px; align-items:start; }    /* less gap so ‘About’ feels connected */
+
+/* cards */
+.card{ padding:16px; }                    /* was 18px */
+.card h3{ margin:2px 0 8px; }
+
+/* container & footer */
+.container{ max-width:1080px; padding:0 20px; }
+footer{ padding:28px 0; }
+
+/* image tweaks (prevents huge image from pushing empty space) */
+.avatar{ display:block; width:100%; height:auto; max-height:520px; }
+
+/* tags look a hair denser */
+.tag{ padding:2px 8px; font-size:12px; }
+.small{ font-size:13.5px; }
