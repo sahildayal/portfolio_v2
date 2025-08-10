@@ -122,3 +122,35 @@ footer{ padding:28px 0; }
 /* tags look a hair denser */
 .tag{ padding:2px 8px; font-size:12px; }
 .small{ font-size:13.5px; }
+
+/* ===== final tightening + polish ===== */
+
+/* keep hero shorter on small screens so About comes into view */
+@media (max-width: 700px){
+  header.hero{ min-height: 50vh; }
+}
+
+/* prevent hero text from stretching too wide on big monitors */
+.hero .inner{ max-width: 720px; margin: 0 auto; }
+
+/* reduce whitespace in bullet lists and between cards */
+.list li{ margin-bottom: 6px; }          /* was 8px */
+.grid .card + .card{ margin-top: 0; }    /* remove accidental extra gaps */
+
+/* ensure the hero image always shows (fallback gradient if missing) */
+.hero::before{
+  background:
+    url("./assets/images/hero.jpg") center/cover no-repeat,
+    radial-gradient(1000px 600px at 70% 0%, rgba(255,90,118,0.10), transparent 60%),
+    #0b1220;
+  filter: brightness(0.62) saturate(1.06);
+}
+
+/* make section headings and content feel closer together */
+.section h2{ margin-bottom: 8px; }       /* was 12px */
+
+/* image column never overwhelms the text */
+.avatar{ max-height: 480px; object-fit: cover; }
+
+/* tiny typography nudge */
+.small{ font-size: 13.25px; }
